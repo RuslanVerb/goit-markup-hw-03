@@ -367,7 +367,9 @@ color: rgba(255, 255, 255, 0.6);
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+
 }
+
 .portfolio-filter-btn{
     
   padding-top: 6px;
@@ -375,26 +377,28 @@ color: rgba(255, 255, 255, 0.6);
   padding-right: 22px;
   padding-left: 22px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
-    
-    
-    }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);   
+ 
+  
+ }
     .portfolio-filter-btn:hover,
     .portfolio-filter-btn:focus{
     color: var(--title-text-color);
     background-color: var(--accent-color);
-    
+    border-radius: 4px;
     }
 
 .button{
     
     background: #F5F4FA;
     border-radius: 4px;
+    
+    
 }
     .button:not(:last-child){
         margin-right: 8px;
